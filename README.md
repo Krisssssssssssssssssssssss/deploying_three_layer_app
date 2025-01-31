@@ -90,16 +90,16 @@ kubectl get nodes
 
 ### **Apply ConfigMap and Secrets:**
 ```bash
-kubectl apply -f path/to/configmap.yaml
-kubectl apply -f path/to/secrets.yaml
+kubectl apply -f k8s/configmap.yaml
+kubectl apply -f k8s/secrets.yaml
 ```
 
 ### **Deploy MongoDB, Redis, Backend, and Frontend:**
 ```bash
-kubectl apply -f path/to/mongo-deployment.yaml
-kubectl apply -f path/to/redis-deployment.yaml
-kubectl apply -f path/to/backend-deployment.yaml
-kubectl apply -f path/to/frontend-deployment.yaml
+kubectl apply -f k8s/mongo-deployment.yaml
+kubectl apply -f k8s/redis-deployment.yaml
+kubectl apply -f k8s/backend-deployment.yaml
+kubectl apply -f k8s/frontend-deployment.yaml
 ```
 
 ### **Verify Deployment:**

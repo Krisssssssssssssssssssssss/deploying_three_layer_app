@@ -1,9 +1,11 @@
 name: CI Pipeline for Expensy App
 
 on:
+  push:
+    branches:
+      - main
+      - staging
   pull_request:
-    types:
-      - closed
     branches:
       - main
       - staging
