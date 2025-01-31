@@ -1,10 +1,9 @@
 name: CD Pipeline for Expensy App (Production)
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    types:
+      - closed
     branches:
       - main
 
